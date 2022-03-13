@@ -1,4 +1,4 @@
-FROM <%= @meta.base_image %>
+FROM --platform=linux/arm64/v8
 LABEL maintainer "Jordon Bedwell <jordon@envygeeks.io>"
 COPY copy /
 
